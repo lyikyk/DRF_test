@@ -9,8 +9,9 @@ User Model의 username 대신 email을 사용하도록 변경
 git clone https://github.com/lyikyk/DRF_test.git
 cd DRF_test\django-auth
 py -m venv venv
-cd venv\Script
+cd venv\Scripts
 activate.bat
+cd ../..
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
